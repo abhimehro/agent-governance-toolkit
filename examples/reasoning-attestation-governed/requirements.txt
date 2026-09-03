@@ -1,1 +1,1 @@
-cryptography>=46.0.7,<48.0
+cryptography>=50.0.1,<51.0
