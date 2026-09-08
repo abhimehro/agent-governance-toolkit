@@ -21,6 +21,7 @@
   </strong>
 </p>
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/02e42484d2f2413795d550b0b5351e13)](https://app.codacy.com/gh/abhimehro/agent-governance-toolkit?utm_source=github.com&utm_medium=referral&utm_content=abhimehro/agent-governance-toolkit&utm_campaign=Badge_Grade)
 [![CI](https://github.com/microsoft/agent-governance-toolkit/actions/workflows/ci.yml/badge.svg)](https://github.com/microsoft/agent-governance-toolkit/actions/workflows/ci.yml)
 [![Discord](https://dcbadge.limes.pink/api/server/TxMRqY3pFr?style=flat)](https://discord.gg/TxMRqY3pFr)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
