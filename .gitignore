@@ -470,3 +470,5 @@ _site/
 # Code Security Assessment artifacts
 .security-assessment/
 *.tgz
+# Causari local ledger — captured prompts, completions and reasoning.
+.causari/
