@@ -75,6 +75,8 @@ AgentOS
 AgentRateLimiter
 Amol
 Anambra
+Artzain
+Assn
 Authenticode
 BFBFBF
 BLOCKME
@@ -96,6 +98,7 @@ Caldicott
 Cdecl
 Centralised
 Chatflows
+cjar
 Clendenen
 CommonMark
 Convs
@@ -133,6 +136,7 @@ EigenTrust
 Entra
 Errno
 Errorf
+Español
 FAKEFORTESTING
 FFDH
 FIPS
@@ -152,6 +156,13 @@ GRPC
 Gazetted
 Ghanaian
 GitHub
+thatjosh
+execdir
+ionice
+setsid
+xargs
+strace
+busybox
 Governorate
 HEALTHCHECK
 HKDF
@@ -163,9 +174,11 @@ Hyperlight
 IATP
 IGNORECASE
 IPFS
+ISSN
 Initialise
 Jaccard
 Janssen
+jans
 Kigali
 KillSwitch
 Kogi
@@ -239,6 +252,7 @@ Printf
 Println
 Pseudonymisation
 Pydantic
+Quantumskipper
 REALPKG
 RISA
 RUBYOPT
@@ -308,6 +322,7 @@ ZDOTDIR
 aadhaar
 aarch64
 ababa
+abatch
 abprs
 abspath
 abstractmethod
@@ -335,6 +350,7 @@ aioredis
 aiter
 akickoff
 alikes
+alisteners
 allowlist
 allowlisted
 alnum
@@ -367,6 +383,7 @@ asynccontextmanager
 asyncgens
 asyncio
 atexit
+atransform
 attributeerror
 authorisation
 authorised
@@ -939,6 +956,7 @@ restype
 retarget
 retargeted
 retargets
+retryable
 returncode
 rfile
 rfind
@@ -1013,6 +1031,7 @@ slugification
 smol
 snupkg
 socat
+socsec
 softmax
 spacy
 spanid
@@ -1021,6 +1040,7 @@ spellcheck
 spellchecking
 spiffesvid
 splitlines
+keepends
 sprintf
 stacklevel
 startswith
@@ -1241,3 +1261,51 @@ acall
 Acall
 acheck
 unroutable
+
+# --- Terraform examples ---
+myagent
+myagentprodsa
+passwordless
+appconfig
+appconfiguration
+azconfig
+boto
+hostnames
+tfvars
+amd64
+alltrue
+cidrhost
+CIDRs
+propagation
+readonly
+resolver
+sha256sum
+# --- Python stdlib identifiers (scripts/check_lockfile_integrity.py) ---
+fromhex
+EBADENGINE
+hono
+# --- rmcp 2.0.0 dependency audit (docs/dependency-audits) ---
+# --- rmcp 2.1.0 dependency audit (docs/dependency-audits) ---
+Abuomar
+Haroon
+alexhancock
+chrono
+pastey
+schemars
+
+# --- Healthcare identifier terms used in HIPAA pattern matching and tests ---
+HPID
+hpid
+Luhn
+luhn
+NPPES
+xmrn
+
+# International Traffic in Arms Regulations
+ITAR
+bssn
+uncued
+undelimited
+verus
+vstd
+prettyplease

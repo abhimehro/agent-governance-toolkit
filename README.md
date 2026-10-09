@@ -1,4 +1,4 @@
-🌍 [English](/README.md) | [日本語](./docs/i18n/README.ja.md) | [简体中文](./docs/i18n/README.zh-CN.md) | [한국어](./docs/i18n/README.ko.md)
+🌍 [English](/README.md) | [Español](./docs/i18n/README.es.md) | [日本語](./docs/i18n/README.ja.md) | [简体中文](./docs/i18n/README.zh-CN.md) | [한국어](./docs/i18n/README.ko.md)
 
 ![Agent Governance Toolkit](docs/assets/readme-banner.svg)
 
@@ -74,6 +74,16 @@ the replacement distribution. Policy-engine host code uses the ACS SDK;
 `agt-policies` provides the one-way v4-to-v5 migration command. The pre-ACS
 `agent_os.policies` rule model is gone, and `BREAKING_CHANGES.md` lists its
 replacements.
+
+The policy engine is published upstream as
+[`agent-control-spec`](https://github.com/responsibleai/agent-control-spec).
+[`agent-hooks`](https://github.com/responsibleai/agent-hooks) defines its
+interception contract. AGT retains the `AgentControl` host APIs and framework
+adapters in [`policy-engine/`](policy-engine/), not a second decision engine.
+This keeps policy evaluation in one place. AGT can adopt upstream fixes through
+a dependency update while keeping its host APIs and framework integrations.
+See the [ACS package guide](docs/packages/agent-control-specification.md) for
+the distinction between upstream packages and AGT's compatibility SDKs.
 
 For Claude Code, add AGT as a plugin marketplace and install the governance plugin:
 
@@ -211,7 +221,7 @@ agt lint-policy policies/                          # validate policy files
 ```
 
 Full walkthrough: [quickstart.md](docs/quickstart.md) -- zero to governed agents in 5 minutes.
-🌍 Also in: [日本語](docs/i18n/quickstart.ja.md) | [简体中文](docs/i18n/quickstart.zh-CN.md) | [한국어](docs/i18n/quickstart.ko.md)
+🌍 Also in: [Español](docs/i18n/quickstart.es.md) | [日本語](docs/i18n/quickstart.ja.md) | [简体中文](docs/i18n/quickstart.zh-CN.md) | [한국어](docs/i18n/quickstart.ko.md)
 
 ---
 
@@ -265,6 +275,7 @@ Every layer is optional. Start with `govern()` and add layers as your risk profi
 | **TypeScript** | [`@microsoft/agent-governance-sdk`](agent-governance-typescript/) | `npm install @microsoft/agent-governance-sdk` |
 | **Copilot CLI** | [`@microsoft/agent-governance-copilot-cli`](agent-governance-copilot-cli/) | `npx @microsoft/agent-governance-copilot-cli install` |
 | **Claude Code** | [`@microsoft/agent-governance-claude-code`](agent-governance-claude-code/) | `claude --plugin-dir ./agent-governance-claude-code` |
+| **Codex CLI** | [`@microsoft/agent-governance-codex-cli`](agent-governance-codex-cli/) | `node agent-governance-codex-cli/bin/agt-codex.mjs install` |
 | **OpenCode** | [`@microsoft/agent-governance-opencode`](agent-governance-opencode/) | `npm install @microsoft/agent-governance-opencode` |
 | **.NET** | [`Microsoft.AgentGovernance`](https://www.nuget.org/packages/Microsoft.AgentGovernance) | `dotnet add package Microsoft.AgentGovernance` |
 | **.NET MCP** | `Microsoft.AgentGovernance.Extensions.ModelContextProtocol` | `dotnet add package Microsoft.AgentGovernance.Extensions.ModelContextProtocol` |
@@ -438,7 +449,7 @@ The only official sources for the Agent Governance Toolkit are:
 |----------|----------|
 | **Source code** | [github.com/microsoft/agent-governance-toolkit](https://github.com/microsoft/agent-governance-toolkit) |
 | **Documentation** | [microsoft.github.io/agent-governance-toolkit](https://microsoft.github.io/agent-governance-toolkit/) |
-| **Python packages** | [pypi.org/user/agentgovtoolkit](https://pypi.org/user/agentgovtoolkit/) |
+| **Python packages** | `https://pypi.org/user/agentgovtoolkit/` |
 | **npm packages** | `@microsoft/agent-governance-sdk` on [npmjs.com](https://www.npmjs.com/) |
 | **NuGet packages** | `Microsoft.AgentGovernance.*` on [nuget.org](https://www.nuget.org/) |
 | **Rust crates** | `agent-governance`, `agent-governance-mcp` on [crates.io](https://crates.io/) |
