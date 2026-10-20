@@ -22,7 +22,7 @@ pydantic==2.10.3
 # aiocache>=0.12.0
 
 # Cryptography
-cryptography==50.0.2  # PKCS7/DER hardening; see docs/dependency-audits/2026-08-07-cryptography-50-cloud-board.md
+cryptography==50.0.2  # 50.0.0 PKCS7/DER hardening; 50.0.2 OpenSSL wheel refresh. See docs/dependency-audits/2026-10-20-cloud-board-aiohttp-3.14.4.md
 pynacl==1.6.2
 
 # Observability
