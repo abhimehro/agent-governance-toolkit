@@ -4,10 +4,9 @@ last_reviewed: 2026-10-20
 owner: agt-maintainers
 ---
 
-# Dependency audit: follow-redirects 1.16.0 to 1.16.1 (copilot extension)
-
-Human lockfile bump for Dependabot alerts #196 and #197. The audit-trail
-gate applies because this is not a Dependabot pull request.
+Lockfile bump for Dependabot alerts #196 and #197, prepared outside
+Dependabot. The audit-trail gate applies because this is not a Dependabot
+pull request.
 
 ## Which dependencies changed and why
 
